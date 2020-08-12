@@ -347,6 +347,7 @@ mariadb:
   master:
     persistence:
       enabled: false
+      # storageClass: ""
 postgres:
   enabled: false
   global:
@@ -355,6 +356,7 @@ postgres:
     postgresqlDatabase: home-assistant
   persistence:
     enabled: false
+    # storageClass: ""
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
