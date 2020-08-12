@@ -351,9 +351,10 @@ mariadb:
 postgresql:
   enabled: false
   global:
-    postgresqlUsername: home-assistant
-    postgresqlPassword: home-assistant-pass
-    postgresqlDatabase: home-assistant
+    postgresql:
+      postgresqlUsername: home-assistant
+      postgresqlPassword: home-assistant-pass
+      postgresqlDatabase: home-assistant
   persistence:
     enabled: false
     # storageClass: ""
