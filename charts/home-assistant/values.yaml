@@ -353,7 +353,6 @@ postgres:
     postgresqlUsername: home-assistant
     postgresqlPassword: home-assistant-pass
     postgresqlDatabase: home-assistant
-      
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
